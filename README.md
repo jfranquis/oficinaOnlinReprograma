@@ -1,4 +1,4 @@
-# oficinaOnlinReprograma
+# oficinaOnlineReprograma
 
  A oficina aborda o conteúdo introdutório de Javascript. 
   Introdução a lógica de programação através de Javascript.
