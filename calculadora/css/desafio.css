@@ -1,0 +1,87 @@
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: rgba(196, 159, 204, 0.12);
+
+}
+
+
+h1{
+  font-size: 25px ;
+  color:  rgb(141, 10, 130);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input {
+  border-style: solid;
+  border-color: rgb(141, 10, 130);
+  border-radius: 10px;
+  width: 10%;
+  height: 30%;
+  
+}
+
+label {
+width: auto;
+font-size: 20px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#resposta{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+
+button{
+  background-color: rgb(141, 10, 130);
+  border: none;
+  color: rgb(252, 248, 248);
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  width: 10%;
+  height: 30px;
+  border-radius: 5px;
+  margin: 1.5rem 0 0 0;
+
+}
+
+.barra-navegacao {
+  font-size: 60px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: aliceblue;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   position: fixed;
+  top: 0;
+  height: 80px;
+  width: 50%;
+  background-color: #462755;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.barra-navegacao__logotipo {
+  max-height: 40%;
+  max-width: 40%;
+}
+
+.cabecalho {
+  margin: 5%;
+  text-align: center;
+  width:50%;
+
+}
+.cabecalho_titulo_calculate {
+  margin: 15px;
+  max-width: 30%;
+  max-height: 30% ;
+
+}
